@@ -1,4 +1,4 @@
-name: XServer-Hotmail-VPS
+name: XServer-VPS-Renew
 on:
   workflow_dispatch:
   schedule:
