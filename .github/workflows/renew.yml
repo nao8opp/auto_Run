@@ -2,7 +2,7 @@ name: XServer-VPS-Renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 */2 * *'
+    - cron: '0 */6 * * *'
 jobs:
   run_xserver_renew:
     runs-on: ubuntu-latest
